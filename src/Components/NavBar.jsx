@@ -1,6 +1,6 @@
 import React from "react";
-import LogoIcon from "../../images/lightlogo.jpeg";
-import { Navbar, Container, Logo, NavLink } from "../../styles/NavBar.styled";
+import LogoIcon from "../images/lightlogo.jpeg";
+import { Navbar, Container, Logo, NavLink } from "../styles/NavBar.styled";
 import { Link } from "react-router-dom";
 const Header = () => {
   return (

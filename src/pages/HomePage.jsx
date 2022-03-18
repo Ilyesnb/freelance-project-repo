@@ -1,12 +1,16 @@
-import HomeSection from "../Components/Home/HomeSection";
-import NavBar from "../Components/Menu/NavBar";
+import NavBar from "../Components/NavBar";
+import ImgSaction from "../Components/ImgSaction";
+import Freelancer from "../images/Freelancer.jpeg";
 
 const HomePage = () => {
   return (
     <div>
       <NavBar />
-      <HomeSection/>
-      
+      <ImgSaction
+        picteur={Freelancer}
+        description="freelancer picteur"
+        title="Freelance"
+      />
     </div>
   );
 };
