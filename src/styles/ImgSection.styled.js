@@ -7,6 +7,7 @@ width: 100%;
 opacity:0.8;
 height:570px;
 background-image:cover;
+border-radius:6px
 
 
 `;
