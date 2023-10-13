@@ -14,6 +14,7 @@ const Header = () => {
         <NavLink to="/a-propos">A Propos</NavLink>
       </Navbar>
     </Container>
+    
   );
 };
 
